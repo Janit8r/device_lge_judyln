@@ -1,0 +1,26 @@
+[
+  {
+    "repository": "proprietary_vendor_lge",
+    "target_path": "vendor/lge"
+  },
+  {
+    "repository": "android_kernel_lge_sdm845",
+    "target_path": "kernel/lge/sdm845"
+  },
+  {
+    "repository": "android_device_lge_sdm845-common",
+    "target_path": "device/lge/sdm845-common"
+  },
+  {
+    "repository": "android_device_lge_hardware",
+    "target_path": "hardware/lge"
+  },
+  {
+    "repository": "android_device_lge_common",
+    "target_path": "device/lge/common"
+  },
+  {
+    "repository": "android_device_lge_judyln",
+    "target_path": "device/lge/judyln"
+  }
+]
