@@ -19,4 +19,4 @@ Display | IPS LCD, HDR10, 6.1 inches, 3120x1440 pixels, 19.5:9 ratio
 
 ## Device picture
 
-![LG G7 ThinQ](https://cdn.mobilecity.vn/mobilecity-vn/images/2019/01/lg-g7-thinq-do.jpg)
+![LG G7 ThinQ](https://www.lg.com/au/images/smartphones/md05970977/gallery/G7_medium01.jpg)
