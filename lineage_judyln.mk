@@ -33,11 +33,11 @@ TARGET_VENDOR_DEVICE_NAME := judyln
 # Bootanimation resolution
 TARGET_BOOT_ANIMATION_RES := 1440
 
+BUILD_FINGERPRINT := "google/raven/raven:12/SQ1D.220105.007/8030436:user/release-keys"
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRIVATE_BUILD_DESC="raven-user 12 SQ1D.220105.007 8030436 release-keys" \
     TARGET_DEVICE="judyln" \
     PRODUCT_DEVICE="judyln" \
     PRODUCT_NAME="judyln_lao_com" \
-	PRIVATE_BUILD_DESC="judyln_lao_com-user 10 QKQ1.191222.002 8450100201101 release-keys"
-
-BUILD_FINGERPRINT="lge/judyln_lao_com/judyln:10/QKQ1.191222.002/8450100201101:user/release-keys"
 
