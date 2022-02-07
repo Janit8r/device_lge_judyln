@@ -19,7 +19,7 @@ $(call inherit-product, device/lge/judyln/device.mk)
 
 # Device identifiers
 PRODUCT_DEVICE := judyln
-PRODUCT_NAME := lineage_judyln
+PRODUCT_NAME := aosp_judyln
 PRODUCT_BRAND := lge
 PRODUCT_MODEL := LG G7 ThinQ
 PRODUCT_MANUFACTURER := LG
