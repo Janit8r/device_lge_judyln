@@ -4,7 +4,7 @@
     "target_path": "vendor/lge"
   },
   {
-    "repository": "android_kernel_lge_sdm845",
+    "repository": "alice_lge_sdm845",
     "target_path": "kernel/lge/sdm845"
   },
   {
@@ -20,7 +20,7 @@
     "target_path": "device/lge/common"
   },
   {
-    "repository": "android_device_lge_judyln",
+    "repository": "device_lge_judyln",
     "target_path": "device/lge/judyln"
   }
 ]
