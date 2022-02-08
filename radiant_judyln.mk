@@ -11,15 +11,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 # Installs gsi keys into ramdisk, to boot a GSI with verified boot.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
-# Inherit some AOSP stuff.
-$(call inherit-product, vendor/aosp/config/common.mk)
+# Inherit some Project Radiant stuff.
+$(call inherit-product, vendor/radiant/config/common_full_phone.mk)
 
 # Inherit from judyln device
 $(call inherit-product, device/lge/judyln/device.mk)
 
 # Device identifiers
 PRODUCT_DEVICE := judyln
-PRODUCT_NAME := aosp_judyln
+PRODUCT_NAME := radiant_judyln
 PRODUCT_BRAND := lge
 PRODUCT_MODEL := LG G7 ThinQ
 PRODUCT_MANUFACTURER := LG
