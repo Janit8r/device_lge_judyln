@@ -12,14 +12,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
 # Inherit some Project Radiant stuff.
-$(call inherit-product, vendor/radiant/config/common_full_phone.mk)
+$(call inherit-product, vendor/awaken/config/common_full_phone.mk)
 
 # Inherit from judyln device
 $(call inherit-product, device/lge/judyln/device.mk)
 
 # Device identifiers
 PRODUCT_DEVICE := judyln
-PRODUCT_NAME := radiant_judyln
+PRODUCT_NAME := awaken_judyln
 PRODUCT_BRAND := lge
 PRODUCT_MODEL := LG G7 ThinQ
 PRODUCT_MANUFACTURER := LG
@@ -33,6 +33,12 @@ TARGET_VENDOR_DEVICE_NAME := judyln
 # Bootanimation resolution
 TARGET_BOOT_ANIMATION_RES := 1440
 
+# Use GApps
+USE_GAPPS := true
+TARGET_GAPPS_ARCH := arm64
+IS_PHONE := true
+
+# Fingerprint
 BUILD_FINGERPRINT := "google/raven/raven:12/SQ1D.220105.007/8030436:user/release-keys"
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
@@ -40,4 +46,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="judyln" \
     PRODUCT_DEVICE="judyln" \
     PRODUCT_NAME="judyln_lao_com" \
-
