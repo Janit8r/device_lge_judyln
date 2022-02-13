@@ -17,7 +17,7 @@ vendor/etc/acdbdata/Codec_cal.acdb
 vendor/etc/acdbdata/Speaker_cal.acdb
 vendor/etc/acdbdata/Handset_cal.acdb
 
-# DSP
+# ADSP modules
 vendor/bin/chre
 vendor/lib/libsymphony-1.1.4.so
 vendor/lib/libsymphonypower-1.1.4.so
@@ -26,7 +26,6 @@ vendor/lib/rfsa/adsp/AlacDecoderModule.so.1
 vendor/lib/rfsa/adsp/ApeDecoderModule.so.1
 vendor/lib/rfsa/adsp/AudioContextDetection.so.1
 vendor/lib/rfsa/adsp/AudioSphereModule.so.1
-vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so
 vendor/lib/rfsa/adsp/cellinfo_tools.so
 vendor/lib/rfsa/adsp/CFCMModule.so.1
 vendor/lib/rfsa/adsp/chre_drv_bt.so
@@ -37,6 +36,7 @@ vendor/lib/rfsa/adsp/chre_drv_wifi.so
 vendor/lib/rfsa/adsp/chre_pal.so
 vendor/lib/rfsa/adsp/EtsiAmrWbPlusDecModule.so.1
 vendor/lib/rfsa/adsp/EtsiEaacPlusEncAndCmnModule.so.1
+vendor/lib/rfsa/adsp/fastrpc_shell_0
 vendor/lib/rfsa/adsp/FlacDecoderModule.so.1
 vendor/lib/rfsa/adsp/fluence_voiceplus_module.so.1
 vendor/lib/rfsa/adsp/geofence.so
@@ -53,6 +53,12 @@ vendor/lib/rfsa/adsp/libdspCV_skel.so
 vendor/lib/rfsa/adsp/libdsp_streamer_add_constant.so
 vendor/lib/rfsa/adsp/libdsp_streamer_binning.so
 vendor/lib/rfsa/adsp/libdsp_streamer_skel.so
+vendor/lib/rfsa/adsp/libfastcvadsp.so
+vendor/lib/rfsa/adsp/libfastcvdsp_skel.so
+vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_skel.so
+vendor/lib/rfsa/adsp/libhexagon_nn_skel.so
+vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so
+vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so
 vendor/lib/rfsa/adsp/libscveT2T_skel.so
 vendor/lib/rfsa/adsp/libsns_device_mode_skel.so
 vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so
@@ -69,11 +75,8 @@ vendor/lib/rfsa/adsp/VoiceWakeup_V2_Module.so.1
 vendor/lib/rfsa/adsp/VorbisDecoderModule.so.1
 vendor/lib/rfsa/adsp/WmaProDecoderModule.so.1
 vendor/lib/rfsa/adsp/WmaStdDecoderModule.so.1
-vendor/lib/libssc_default_listener.so
-vendor/lib64/libssc_default_listener.so
 vendor/lib64/libsymphony-1.1.4.so
 vendor/lib64/libsymphonypower-1.1.4.so
-
 
 # Camera
 vendor/lib/hw/camera.sdm845.so
@@ -395,10 +398,12 @@ vendor/lib/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so
 vendor/lib/libsensorcal.so
 vendor/lib/libsensorslog.so
 vendor/lib/libsns_device_mode_stub.so
+vendor/lib/libsns_fastRPC_util.so
 vendor/lib/libsns_low_lat_stream_stub.so
 vendor/lib/libsnsapi.so
 vendor/lib/libsnsdiaglog.so
 vendor/lib/libssc.so
+vendor/lib/libssc_default_listener.so
 vendor/lib/sensors.sar.so
 vendor/lib/sensors.ssc.so
 vendor/lib/vendor.qti.hardware.sensorscalibrate@1.0.so
@@ -406,10 +411,12 @@ vendor/lib64/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so
 vendor/lib64/libsensorcal.so
 vendor/lib64/libsensorslog.so
 vendor/lib64/libsns_device_mode_stub.so
+vendor/lib64/libsns_fastRPC_util.so
 vendor/lib64/libsns_low_lat_stream_stub.so
 vendor/lib64/libsnsapi.so
 vendor/lib64/libsnsdiaglog.so
 vendor/lib64/libssc.so
+vendor/lib64/libssc_default_listener.so
 vendor/lib64/sensors.sar.so
 vendor/lib64/sensors.ssc.so
 vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so
