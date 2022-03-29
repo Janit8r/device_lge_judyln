@@ -12,14 +12,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
 # Inherit some AOSP stuff.
-$(call inherit-product, vendor/aosp/config/common.mk)
+$(call inherit-product, vendor/awaken/config/common.mk)
 
 # Inherit from judyln device
 $(call inherit-product, device/lge/judyln/device.mk)
 
 # Device identifiers
 PRODUCT_DEVICE := judyln
-PRODUCT_NAME := aosp_judyln
+PRODUCT_NAME := awaken_judyln
 PRODUCT_BRAND := lge
 PRODUCT_MODEL := LG G7 ThinQ
 PRODUCT_MANUFACTURER := LG
@@ -29,6 +29,9 @@ PRODUCT_GMS_CLIENTID_BASE := android-om-lg
 
 TARGET_VENDOR_PRODUCT_NAME := judyln_lao_com
 TARGET_VENDOR_DEVICE_NAME := judyln
+
+USE_GAPPS := true
+TARGET_GAPPS_ARCH := arm64
 
 # Bootanimation resolution
 TARGET_BOOT_ANIMATION_RES := 1440
